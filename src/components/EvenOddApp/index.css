@@ -1,0 +1,90 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 678px) {
+  .app-container {
+    justify-content: flex-start;
+  }
+}
+
+.EvenOddApp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  background-size: cover;
+  height: 400px;
+  width: 450px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 678px) {
+  .EvenOddApp-container {
+    height: 300px;
+    width: 350px;
+  }
+}
+
+.main-count-heading {
+  color: #0f172a;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (max-width: 678px) {
+  .main-count-heading {
+    font-size: 30px;
+  }
+}
+
+.text-display {
+  color: #334155;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 678px) {
+  .text-display {
+    font-size: 20px;
+  }
+}
+
+.increment-button {
+  color: #1e293b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+@media screen and (max-width: 678px) {
+  .increment-button {
+    font-size: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}
+
+.text {
+  color: #334155;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 678px) {
+  .text {
+    font-size: 10px;
+  }
+}
